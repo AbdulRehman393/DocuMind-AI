@@ -1,5 +1,7 @@
 # RAG Chatbot (FastAPI + Streamlit + LangChain + Chroma)
 
+> **Status: Work in Progress (WIP)** — this project is actively being developed and may change frequently.
+
 A simple Retrieval-Augmented Generation (RAG) chatbot that lets you upload documents (PDF/TXT/MD), indexes them into a Chroma vector database, and then answers questions using retrieved context.
 
 ## Features
