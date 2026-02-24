@@ -1,0 +1,172 @@
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 8283a869-53d9-428e-9b1e-3df098e2fe37, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 1, updating n_results = 1
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 8283a869-53d9-428e-9b1e-3df098e2fe37, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 1, updating n_results = 1
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 8283a869-53d9-428e-9b1e-3df098e2fe37, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 8283a869-53d9-428e-9b1e-3df098e2fe37, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 981425ed-156a-4d2b-a7d9-086357b94e83, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 7c9a5fca-6cc0-4897-8ccb-e7382bfdb3ba, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: test123, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+INFO:root:Session ID: 684e951c-48fc-4902-ac8b-37cfa43332e6, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 401 Unauthorized"
+INFO:root:Session ID: 66341210-9c96-4980-8775-c6c4ed01435f, User Query: hi, Model: mistralai/mistral-7b-instruct:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 401 Unauthorized"
+INFO:root:Session ID: 5af287e9-eb41-424c-b385-3b2b4bebdd71, User Query: hi, Model: google/gemma-3n-e4b-it:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:root:Session ID: 5af287e9-eb41-424c-b385-3b2b4bebdd71, User Query: hi, Model: google/gemma-3n-e4b-it:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:root:Session ID: 5af287e9-eb41-424c-b385-3b2b4bebdd71, User Query: hi, Model: google/gemma-3n-e4b-it:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:root:Session ID: 5af287e9-eb41-424c-b385-3b2b4bebdd71, User Query: hi, Model: google/gemma-3n-e4b-it:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:root:Session ID: 6bc3a039-5b1e-480e-a4c8-58e3f9a697c1, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 6bc3a039-5b1e-480e-a4c8-58e3f9a697c1, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 55b6ccf9-c5ca-47af-8607-00c0a8828ebe, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 55b6ccf9-c5ca-47af-8607-00c0a8828ebe, AI Response: Hello! How can I assist you today? \U0001f60a
+
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, AI Response: Hello! How can I assist you today?
+
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, User Query: why do we split text , Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, User Query: why do we split text, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, AI Response: We split text in RAG (Retrieval-Augmented Generation) systems for several key reasons:
+
+1. **LLM Limitations**:  
+   Large Language Models (LLMs) have a maximum context window (e.g., 4k-32k tokens). Splitting long documents into smaller chunks ensures the input stays within this limit.
+
+2. **Efficient Retrieval**:  
+   Embeddings (numeric representations of text) work best on smaller, focused chunks. This makes it easier for the system to find relevant information quickly during retrieval.
+
+3. **Accuracy**:  
+   Large, unbroken texts can lead to "noisy" or irrelevant retrievals. Smaller chunks help the model focus on specific, meaningful sections of the document.
+
+4. **Chunk Overlap**:  
+   Overlapping chunks (e.g., 100 tokens) ensures continuity. If a query spans two chunks, overlapping text helps the model piece together context accurately.
+
+5. **Practicality**:  
+   Long documents (like PDFs or articles) are split into manageable pieces (200–500 words) to balance detail and efficiency.
+
+For example, if a document says:  
+*"Pakistan won the match. They played really well."*  
+Splitting it into chunks ensures the model retrieves both sentences together if needed, avoiding missing context.  
+
+Different splitters (like `CharacterTextSplitter` or `TokenTextSplitter`) are used based on whether you split by characters or tokens (important for models like GPT or Claude).
+
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, User Query: what is capital of Pakistan, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b4c464e9-d5d4-424e-9a01-1ae6dc701adf, AI Response: The provided context does not mention the capital of Pakistan. My knowledge cutoff is October 2023, and the capital of Pakistan is **Islamabad**. Let me know if you'd like further details!
+
+INFO:root:Session ID: f31e459f-b248-4ac1-9396-b4a97c2b4090, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f31e459f-b248-4ac1-9396-b4a97c2b4090, AI Response: Hello! How can I help you today? \U0001f60a
+
+INFO:root:Session ID: 71e36e4a-d37e-4bac-8b0d-816896da82c0, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 71e36e4a-d37e-4bac-8b0d-816896da82c0, AI Response: Hello! How can I assist you today? \U0001f60a
+
+INFO:root:Session ID: 71e36e4a-d37e-4bac-8b0d-816896da82c0, User Query: why we split text, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 71e36e4a-d37e-4bac-8b0d-816896da82c0, User Query: why we split text, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f113bc01-c564-425f-a759-7782174f16df, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f113bc01-c564-425f-a759-7782174f16df, AI Response: Hello! How can I assist you today?
+
+INFO:root:Session ID: f113bc01-c564-425f-a759-7782174f16df, User Query: why do we split text, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f113bc01-c564-425f-a759-7782174f16df, AI Response: Splitting text can serve various purposes depending on the context. Here are some common reasons:
+
+1. **Data Processing**: To break text into manageable chunks for analysis, storage, or further manipulation (e.g., splitting a paragraph into sentences or words for NLP tasks).  
+2. **Formatting**: To fit text into specific constraints (e.g., line breaks in a document or messages in a chat app).  
+3. **Algorithm Requirements**: Many machine learning or text analysis tools require input in smaller units (like tokens or phrases).  
+4. **Language-Specific Needs**: Splitting text into words, characters, or linguistic units (e.g., for translation or grammar analysis).  
+
+Could you clarify the specific context or goal you're referring to? That would help tailor the explanation! \U0001f60a
+
+INFO:root:Session ID: a0684d4f-fafc-400f-9200-ff8db2430968, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: a0684d4f-fafc-400f-9200-ff8db2430968, AI Response: Hello! How can I assist you today? \U0001f60a
+
+INFO:root:Session ID: e645f4a2-fe77-403a-b727-53017498cc96, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: ca713027-a91f-4063-a161-790975130c4e, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: ca713027-a91f-4063-a161-790975130c4e, AI Response: Hello! How can I assist you today? \U0001f60a
+
+INFO:root:Session ID: ca713027-a91f-4063-a161-790975130c4e, User Query: why do we split text, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: ca713027-a91f-4063-a161-790975130c4e, AI Response: We split text primarily to **make it manageable for AI models** that have limitations on input size. Here's why:
+
+1. **Model Constraints**:  
+   Many AI models (like those from OpenAI or Anthropic) process text in chunks (e.g., tokens or characters) due to maximum input length limits. Splitting long documents into smaller chunks ensures they fit within these constraints.
+
+2. **Efficiency**:  
+   Processing shorter text chunks is faster and less resource-intensive than handling a single massive block of text.
+
+3. **Context Preservation**:  
+   Using **chunk overlap** (e.g., 100 characters/tokens) ensures that important context between chunks isn’t lost. For example, in a sentence like *"Pakistan won the match. They played really well,"* splitting without overlap might break the flow, but overlap keeps related ideas connected.
+
+4. **Embedding Compatibility**:  
+   Token-based splitters (like `TokenTextSplitter`) align with how embeddings work (since embeddings often process text at the token level), ensuring better quality representations for downstream tasks.
+
+In short, splitting text helps balance model capabilities, speed, and context quality! \U0001f60a
+
+INFO:root:Session ID: f3b5a4c5-19a4-4849-9dad-05226f5fcf84, User Query: What Is Chunk Overlap? , Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f3b5a4c5-19a4-4849-9dad-05226f5fcf84, User Query: What Is Chunk Overlap? , Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f3b5a4c5-19a4-4849-9dad-05226f5fcf84, AI Response: **Chunk Overlap** refers to the number of tokens or characters that are shared between consecutive text chunks when splitting a document. It ensures that overlapping sections of the text are included in adjacent chunks, which helps retrieve relevant context during tasks like question-answering or retrieval-augmented generation. 
+
+For example, if you have a sentence like:  
+*"Pakistan won the match. They played really well."*  
+With `chunk_size=500` and `chunk_overlap=100`, the first chunk might end at "match," and the next chunk would start 100 tokens/characters *before* "match," ensuring the overlap includes parts of both sentences. This prevents losing critical context at the boundaries of splits.
+
+INFO:root:Session ID: f3b5a4c5-19a4-4849-9dad-05226f5fcf84, AI Response: **Chunk Overlap** refers to the number of tokens or characters that are shared between consecutive text chunks when splitting a document. This overlap ensures that critical context or connections between sentences/paragraphs are preserved across chunks, which is especially important for tasks like retrieval or summarization where maintaining coherence matters.
+
+### Example from the context:
+If your text is:  
+> "Pakistan won the match. They played really well."
+
+With `chunk_size=500` and `chunk_overlap=100`, the first chunk might end at "match," and the next chunk would start with "They played..." but include the overlapping part (e.g., the last 100 tokens/characters of the first chunk). This prevents abrupt breaks in meaning between chunks.  
+
+Without overlap, splitting might occur mid-sentence, leading to fragmented context. Overlap acts as a "bridge" to maintain continuity.
+
+INFO:root:Session ID: f933c99a-ad7c-4cc9-a9cd-b395c4eda3bf, User Query: What Is Chunk Overlap? , Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f933c99a-ad7c-4cc9-a9cd-b395c4eda3bf, AI Response: It seems there is no context provided about "Chunk Overlap" in your query. Could you share additional details or clarify the context you're referring to (e.g., a specific field, document, or system)? This will help me provide a more accurate explanation!
+
+INFO:root:Session ID: f933c99a-ad7c-4cc9-a9cd-b395c4eda3bf, User Query: What Is Chunk Overlap?         its given in pdf see it and extract from it, Model: nvidia/nemotron-nano-9b-v2:free
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
