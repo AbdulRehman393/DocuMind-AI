@@ -1,117 +1,150 @@
-# RAG Chatbot (FastAPI + Streamlit + LangChain + Chroma)
+# DocuMind AI
 
-A Retrieval-Augmented Generation (RAG) chatbot that lets you upload documents (PDF/TXT/MD), build an index, and chat with your content using retrieved context. Built with **FastAPI**, **Streamlit**, **LangChain**, and **Chroma**.
+![image1](image1)
 
-## Features
+**DocuMind AI** is an advanced Retrieval-Augmented Generation (RAG) chatbot built with **FastAPI**, **Streamlit**, **LangChain**, and **Chroma**. It allows users to upload documents in PDF, TXT, or Markdown format, indexes them, and enables interactive Q&A chat with context-aware answers from your uploaded documents.
 
-- Upload and ingest **PDF**, **TXT**, and **Markdown** documents
-- Create embeddings and store them in **Chroma** (local vector database)
-- Chat UI powered by **Streamlit**
-- API layer with **FastAPI**
-- Retrieval-based responses using relevant document chunks as context
-- Simple, local-first workflow (great for prototyping and demos)
+---
 
-## Tech Stack
+## 🚀 Features
 
-- **Backend API:** FastAPI
-- **Frontend:** Streamlit
-- **RAG Orchestration:** LangChain
-- **Vector Store:** Chroma
-- **Language:** Python
+- **Intelligent RAG Assistant**: Combines powerful retrieval and generative AI for smart document search and Q&A.
+- **Multi-format Document Support**: Upload PDFs, DOCX, TXT, or MD files (up to 200MB per file).
+- **Seamless Indexing & Search**: Instantly index your documents for fast, context-driven chat.
+- **Modern UI**: Built with Streamlit for a clean, interactive user experience.
+- **Backend API**: FastAPI powers robust document handling and indexing.
+- **Chat with Documents**: Use natural language to ask questions and retrieve answers from your files.
 
-## Project Structure
+---
 
-> Update these paths to match your repository.
+## 📂 Project Structure
 
-```text
-.
-├── app/                 # FastAPI app (routes, services)
-├── ui/                  # Streamlit UI
-├── data/                # Uploaded documents / local storage (optional)
-├── chroma_db/           # Chroma persistence directory (optional)
-├── requirements.txt
-└── README.md
-```
+- [`backend/`](https://github.com/AbdulRehman393/DocuMind-AI/tree/main/backend)  
+  Contains FastAPI backend source code responsible for handling uploads, document parsing, vectorization, and serving the API endpoints.
 
-## Getting Started
+- [`frontend/`](https://github.com/AbdulRehman393/DocuMind-AI/tree/main/frontend)  
+  Streamlit-powered frontend for user interactions. Handles file uploads, chat interface, and displays answers.
 
-### 1) Prerequisites
+- [`.env.example`](https://github.com/AbdulRehman393/DocuMind-AI/blob/main/.env.example)  
+  Example environment configuration file. Copy and rename to `.env` for local setup.
 
-- Python 3.10+ recommended
-- (Optional) `virtualenv` / `venv`
+- [`requirements.txt`](https://github.com/AbdulRehman393/DocuMind-AI/blob/main/requirements.txt)  
+  Python dependencies for both backend and frontend.
 
-### 2) Installation
+---
+
+## 🖼️ Demo
+
+![DocuMind AI Screenshot](image1)
+
+The screenshot above shows the sleek UI, document upload section, chat interface, and smart answer retrieval.
+
+---
+
+## ⚡ Quick Start
+
+### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/AbdulRehman393/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/AbdulRehman393/DocuMind-AI.git
+cd DocuMind-AI
+```
 
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-source .venv/bin/activate
+### 2. Setup Python Environment
 
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3) Configuration
+### 3. Configure Environment Variables
 
-Create a `.env` file (or export environment variables) as needed by your LLM provider.
+Copy `.env.example` to `.env` and modify as required (API keys, ports, etc.)
 
-Example:
-
-```bash
-# LLM provider key (choose what your project uses)
-OPENAI_API_KEY=your_key_here
-
-# Optional settings (adjust if your code supports them)
-CHROMA_PERSIST_DIR=./chroma_db
-```
-
-> If you use a different provider (Groq, Gemini, Ollama, Azure OpenAI, etc.), rename variables accordingly.
-
-### 4) Run the Backend (FastAPI)
+### 4. Run Backend
 
 ```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+cd backend
+uvicorn main:app --reload
 ```
 
-API docs (if enabled):
-- http://localhost:8000/docs
+### 5. Launch Frontend
 
-### 5) Run the Frontend (Streamlit)
+Open a new terminal:
 
 ```bash
-streamlit run ui/app.py
+cd frontend
+streamlit run app.py
 ```
 
-Open:
-- http://localhost:8501
+### 6. Access the App
 
-## Usage
+Visit `http://localhost:8501` (or the address shown in terminal).
 
-1. Start the backend and Streamlit UI
-2. Upload one or more documents (PDF/TXT/MD)
-3. Click **Index / Ingest** (based on your UI)
-4. Ask questions in the chat
-5. The assistant will answer using retrieved context from your documents
+---
 
-## Notes / Tips
+## ⚙️ Folder & File Overview
 
-- For best results, upload well-structured documents.
-- If responses look off, try re-indexing after changing chunk size / overlap (if configurable).
-- Persisting Chroma to disk helps avoid re-indexing on every restart.
+- **backend/**  
+  - Main FastAPI app and APIs for document upload, processing, retrieval.
+  - LangChain integration.
+  - Chroma vector database handling.
 
-## Roadmap (Optional)
+- **frontend/**  
+  - Streamlit UI.
+  - Chat window.
+  - File upload and index.
 
-- [ ] Add multi-user sessions
-- [ ] Add citations/sources in answers
-- [ ] Add Docker support
-- [ ] Add evaluation scripts (RAGAS / custom metrics)
+- **requirements.txt**  
+  - Lists Python libraries for both frontend and backend.
 
-## Contributing
+- **.env.example**  
+  - Skeleton for required environment variables.
 
-Contributions are welcome. Please open an issue to discuss significant changes before submitting a PR.
+---
 
-## License
+## 🧠 How It Works
 
-Add your license here (e.g., MIT). If you haven’t added one yet, consider including a `LICENSE` file.
+1. **Upload Document**: Drag and drop files (PDF/TXT/MD).
+2. **Index & Process**: Backend vectorizes and stores data using Chroma & LangChain.
+3. **Chat**: Type questions; DocuMind AI fetches relevant context and generates answers.
+
+---
+
+## 📦 Tech Stack
+
+- **FastAPI** – Backend API
+- **Streamlit** – Frontend UI
+- **LangChain** – LLM-powered document retrieval
+- **Chroma** – Vector database
+- **Python** – 100%
+
+---
+
+## 👤 Author
+
+- [AbdulRehman393](https://github.com/AbdulRehman393)
+
+---
+
+## ⭐️ Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 🔗 Links
+
+- [Live Demo (if available)](https://github.com/AbdulRehman393/DocuMind-AI)
+- [Issues](https://github.com/AbdulRehman393/DocuMind-AI/issues)
+
+---
+
+Build your own AI-powered document assistant today!
