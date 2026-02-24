@@ -1,6 +1,6 @@
 # DocuMind AI
 
-![image1](image1)
+![DocuMind AI Screenshot](./images/project.png)
 
 **DocuMind AI** is an advanced Retrieval-Augmented Generation (RAG) chatbot built with **FastAPI**, **Streamlit**, **LangChain**, and **Chroma**. It allows users to upload documents in PDF, TXT, or Markdown format, indexes them, and enables interactive Q&A chat with context-aware answers from your uploaded documents.
 
