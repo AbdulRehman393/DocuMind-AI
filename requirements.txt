@@ -12,3 +12,4 @@ streamlit
 requests
 python-dotenv
 sentence-transformers
+google-search-results
