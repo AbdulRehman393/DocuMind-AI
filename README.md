@@ -20,7 +20,7 @@
 ---
 
 ## Live demo / Screenshots
-Add a screenshot to the repo `images/` directory (recommended: `images/project.png`) and it will be shown here in GitHub preview.
+![DocuMind AI Screenshot](./project.png)
 
 ---
 
