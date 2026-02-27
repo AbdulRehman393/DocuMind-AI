@@ -1,13 +1,13 @@
 import requests
 
 API_URL = "http://127.0.0.1:8000"
-
+# For deployment, set:
+# API_URL = "https://your-backend-url.onrender.com"
 
 def upload_document(file):
     files = {"file": (file.name, file.getvalue())}
     response = requests.post(f"{API_URL}/upload-doc", files=files)
     return response
-
 
 def get_all_documents():
     try:
@@ -18,11 +18,9 @@ def get_all_documents():
     except requests.exceptions.ConnectionError:
         return None
 
-
 def delete_document(file_id):
     response = requests.post(f"{API_URL}/delete-doc", json={"file_id": file_id})
     return response
-
 
 def send_chat_message(question, model, session_id):
     response = requests.post(

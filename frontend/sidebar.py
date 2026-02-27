@@ -1,6 +1,7 @@
 import streamlit as st
 from api_utils import upload_document, get_all_documents, delete_document
 
+
 def render_sidebar():
     # Sidebar branding header
     st.sidebar.markdown("""
@@ -73,6 +74,15 @@ def render_sidebar():
         </div>
         """, unsafe_allow_html=True)
     st.sidebar.markdown("</div>", unsafe_allow_html=True)
+
+    # Web Search section
+    st.sidebar.markdown("""
+    <div style="background:#181a2f;border-radius:11px;padding:1.3rem;margin-bottom:0.8rem;">
+      <h4 style="color:#38bdf8;margin-bottom:0.7rem;font-weight:700;">🔎 Web Search</h4>
+      <p style="color:#a5b4fc;">Tip: Ask your web questions (such as weather, news, stocks, etc.) directly in chat!<br>
+      DocuMind AI will automatically search the web and answer.</p>
+    </div>
+    """, unsafe_allow_html=True)
 
     # Model selection
     st.sidebar.markdown("""
