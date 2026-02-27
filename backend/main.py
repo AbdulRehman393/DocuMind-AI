@@ -1,6 +1,7 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile, HTTPException, Query
 from pydantic_models import QueryInput, QueryResponse, DocumentInfo, DeleteFileRequest
 from langchain_utils import get_rag_chain
+
 from db_utils import (
     insert_application_logs,
     get_chat_history,
@@ -21,6 +22,7 @@ logging.basicConfig(filename='app.log', level=logging.INFO)
 # Initialize FastAPI app
 app = FastAPI()
 
+# ---- ENDPOINTS ----
 
 @app.post("/chat", response_model=QueryResponse)
 def chat(query_input: QueryInput):
@@ -45,23 +47,17 @@ def chat(query_input: QueryInput):
 def upload_and_index_document(file: UploadFile = File(...)):
     allowed_extensions = ['.pdf', '.docx', '.html']
     file_extension = os.path.splitext(file.filename)[1].lower()
-
     if file_extension not in allowed_extensions:
         raise HTTPException(
             status_code=400,
             detail=f"Unsupported file type. Allowed types are: {', '.join(allowed_extensions)}"
         )
-
     temp_file_path = f"temp_{file.filename}"
-
     try:
-        # Save the uploaded file to a temporary file
         with open(temp_file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
-
         file_id = insert_document_record(file.filename)
         success = index_document_to_chroma(temp_file_path, file_id)
-
         if success:
             return {
                 "message": f"File {file.filename} has been successfully uploaded and indexed.",
@@ -83,7 +79,6 @@ def list_documents():
 @app.post("/delete-doc")
 def delete_document(request: DeleteFileRequest):
     chroma_delete_success = delete_doc_from_chroma(request.file_id)
-
     if chroma_delete_success:
         db_delete_success = delete_document_record(request.file_id)
         if db_delete_success:
@@ -98,6 +93,10 @@ def delete_document(request: DeleteFileRequest):
         return {
             "error": f"Failed to delete document with file_id {request.file_id} from Chroma."
         }
-    
+
+
+
+# ---- APP ENTRYPOINT ----
+
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
