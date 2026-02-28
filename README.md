@@ -20,7 +20,8 @@
 ---
 
 ## Live demo / Screenshots
-![DocuMind AI Screenshot](./project.png)
+![DocuMind AI Screenshot](./image_1.png)
+![DocuMind AI Screenshot](./image_2.png)
 
 ---
 
