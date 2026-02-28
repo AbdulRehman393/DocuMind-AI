@@ -43,9 +43,32 @@ def get_rag_chain(model="nvidia/nemotron-nano-9b-v2:free"):
 
             print("User asked:", user_q)
 
+            # 1. Greet (leave as it is)
             if is_greeting(normalized_q) or normalized_q in ["how are you?", "what's up?", "are you there?"]:
                 return {"answer": "Hello! How can I assist you today?"}
 
+            # 2. PDF/doc search PRIORITIZED FIRST!
+            print("Trying PDF/doc search...")
+            doc_answer = document_search(user_q)
+            print("Doc search result:", doc_answer)
+
+            if doc_answer and doc_answer.strip():
+                check_prompt = (
+                    "You are a helpful document assistant. Answer ONLY using the information below from the user's PDF/document."
+                    "\nIf the answer is not present in the document extract, reply ONLY with: NOT FOUND.\n"
+                    f"\nDocument Extract:\n'''\n{doc_answer}\n'''\n"
+                    f"\nUser question: {user_q}\n"
+                )
+                try:
+                    llm_result = llm.invoke(check_prompt)
+                    content = getattr(llm_result, 'content', None) or str(llm_result)
+                    print("Doc LLM result:", content)
+                    if "NOT FOUND" not in content.upper():
+                        return {"answer": content.strip()}
+                except Exception as e:
+                    print(f"PDF LLM check failed: {e}")
+
+            # 3. If not found in documents, try web search (if it's a "live" question)
             if any(kw in normalized_q for kw in ["date", "weather", "today", "now", "current", "temperature"]):
                 tool_data = web_search(user_q)
                 prompt = (
@@ -61,28 +84,7 @@ def get_rag_chain(model="nvidia/nemotron-nano-9b-v2:free"):
                     print(f"Web LLM error: {e}")
                     return {"answer": str(tool_data)}
 
-            # Try doc (vectorstore) last (if not a live-data question)
-            print("Trying PDF/doc search...")
-            doc_answer = document_search(user_q)
-            print("Doc search result:", doc_answer)
-
-            if doc_answer and doc_answer.strip():
-                check_prompt = (
-                    f"You are a helpful document assistant. User asked: '{user_q}'\n"
-                    f"Found in documents: '''{doc_answer}'''\n"
-                    "If this really answers the user's question, reply with a friendly, concise answer. "
-                    "If NOT, reply ONLY with: NOT FOUND."
-                )
-                try:
-                    llm_result = llm.invoke(check_prompt)
-                    content = getattr(llm_result, 'content', None) or str(llm_result)
-                    print("Doc LLM result:", content)
-                    if "NOT FOUND" not in content.upper():
-                        return {"answer": content.strip()}
-                except Exception as e:
-                    print(f"PDF LLM check failed: {e}")
-
-            # Try pure LLM last
+            # 4. Lastly: LLM fallback
             print("Trying direct LLM fallback...")
             try:
                 result = llm.invoke(user_q)
