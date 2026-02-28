@@ -214,11 +214,3 @@ This project is licensed under the MIT License — see [LICENSE](./LICENSE).
 Built with ❤️ by [AbdulRehman393](https://github.com/AbdulRehman393)  
 For support, open an issue in this repo.
 
----
-
-If you'd like, I can next:
-- generate a polished `.env.example` that matches keys used in the code (including SERPAPI_API_KEY),
-- produce a Dockerfile + docker-compose to run frontend + backend + persistent Chroma,
-- or add a GitHub Actions workflow for linting and tests.
-
-Tell me which you prefer and I will prepare the files.  
