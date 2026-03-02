@@ -20,6 +20,7 @@ logging.basicConfig(filename='app.log', level=logging.INFO)
 
 app = FastAPI()
 
+
 @app.post("/chat", response_model=QueryResponse)
 def chat(query_input: QueryInput):
     session_id = query_input.session_id or str(uuid.uuid4())
@@ -36,17 +37,16 @@ def chat(query_input: QueryInput):
     })
 
     answer = result["answer"]
-    source = result.get("source", "llm")
 
     insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
-    logging.info(f"Session ID: {session_id}, AI Response: {answer}, Source: {source}")
+    logging.info(f"Session ID: {session_id}, AI Response: {answer}")
 
     return QueryResponse(
         answer=answer,
         session_id=session_id,
-        model=query_input.model,
-        source=source
+        model=query_input.model
     )
+
 
 @app.post("/upload-doc")
 def upload_and_index_document(file: UploadFile = File(...)):
@@ -78,9 +78,11 @@ def upload_and_index_document(file: UploadFile = File(...)):
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
 
+
 @app.get("/list-docs", response_model=list[DocumentInfo])
 def list_documents():
     return get_all_documents()
+
 
 @app.post("/delete-doc")
 def delete_document(request: DeleteFileRequest):
@@ -91,6 +93,7 @@ def delete_document(request: DeleteFileRequest):
             return {"message": f"Successfully deleted document with file_id {request.file_id} from the system."}
         return {"error": f"Deleted from Chroma but failed to delete document with file_id {request.file_id} from the database."}
     return {"error": f"Failed to delete document with file_id {request.file_id} from Chroma."}
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)

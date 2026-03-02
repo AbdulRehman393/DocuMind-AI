@@ -1378,3 +1378,17 @@ INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, User Query: hi, Mode
 INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, AI Response: Hello! How can I assist you today?, Source: greeting
 INFO:root:Session ID: 220403c5-5dc3-4ebd-98f6-3aadc6a62881, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
 INFO:root:Session ID: 220403c5-5dc3-4ebd-98f6-3aadc6a62881, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: 62b4153b-1443-435a-a9ae-0d0cfb00fcef, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 62b4153b-1443-435a-a9ae-0d0cfb00fcef, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 62b4153b-1443-435a-a9ae-0d0cfb00fcef, User Query: what is weather today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.399788 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.888543 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.473707 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.833039 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: 62b4153b-1443-435a-a9ae-0d0cfb00fcef, AI Response: I found web results but couldn't summarize them right now. Please try again.
