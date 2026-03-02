@@ -10,6 +10,13 @@ class ModelName(str, Enum):
     MISTRAL_SMALL = "mistralai/mistral-small-3.1-24b-instruct:free"
 
 
+class AnswerSource(str, Enum):
+    DOCUMENT = "document"
+    WEB = "web"
+    LLM = "llm"
+    GREETING = "greeting"
+
+
 class QueryInput(BaseModel):
     question: str
     session_id: str = Field(default=None)
@@ -20,6 +27,7 @@ class QueryResponse(BaseModel):
     answer: str
     session_id: str
     model: ModelName
+    source: AnswerSource = Field(default=AnswerSource.LLM)
 
 
 class DocumentInfo(BaseModel):

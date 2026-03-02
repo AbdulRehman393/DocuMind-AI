@@ -1029,3 +1029,352 @@ INFO:root:Session ID: 11a49d22-327a-433c-821c-c8d22d538b37, User Query: What is 
 INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Session ID: 11a49d22-327a-433c-821c-c8d22d538b37, AI Response: The question about what Ayla is carrying when she enters the workshop depends on the specific context or story being referenced, as "Ayla" could pertain to various characters in different works (e.g., books, movies, games). Without additional details about the source material, it's challenging to provide an exact answer. If you have a specific story or universe in mind, sharing more context would help narrow it down!
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, User Query: bye, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: c99e65db-3d88-4e70-a035-12bea3851577, AI Response: Goodbye! Feel free to ask if you need anything else. Have a great day! \U0001f60a
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: what is weather of lahore today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Today in Lahore, Pakistan, the weather is mostly sunny with a temperature of 87°F, 0% precipitation, 20% humidity, and winds at 9 mph—perfect weather for a pleasant day!
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: what is current conflict between iran and usa, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: The current conflict involves recent attacks by the U.S. and Israel on Iran, with Iran denying any talks, and Hezbollah joining the conflict following the death of Iran's leader, Khamenei.
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which Islamic leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: which is most prominent color in ranbow, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, User Query: what is most prominent color on ranbow, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: cea1c279-9680-47eb-ac54-1cb254e601df, AI Response: The most prominent color in a rainbow is often considered **red**, as it appears at the top of the arc when viewed from the ground. This is due to the way light is refracted and dispersed through water droplets: red light (with the longest wavelength) bends the least and is positioned on the outer edge of the rainbow. 
+
+However, "prominence" can be subjective. Some might argue that **violet** (the shortest wavelength) is more striking due to its intensity or cultural associations. Ultimately, all colors in a rainbow are part of a continuous spectrum, and their visibility depends on factors like lighting, observer perspective, and cultural symbolism.
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, User Query: which muslim leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, AI Response: As of my last update in July 2024, there are no widely reported or confirmed cases of a recent martyrdom of a prominent Muslim leader globally. The term "martyred" can sometimes be used in specific contexts (e.g., political, religious, or conflict-related), but I cannot provide specific details without more information.
+
+If you have a particular region, event, or individual in mind, please provide additional context so I can assist more accurately. For real-time updates, I recommend checking reputable news sources or official statements from relevant organizations.
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, User Query: I am asking about iran, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, AI Response: Certainly! Could you clarify what specific aspect of Iran you're interested in? For example:  
+- **Current events/politics** (e.g., recent protests, nuclear negotiations)?  
+- **History** (e.g., ancient Persian empires, Islamic Revolution)?  
+- **Culture** (e.g., language, traditions, art)?  
+- **Economy or travel**?  
+
+Let me know, and I’ll tailor the answer to your needs! \U0001f60a
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, User Query: I am aksing about iran which muslim leader martyred yested, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: b6f3603d-4072-4ac3-8a22-e12498ae4262, AI Response: As of my last update on October 25, 2023, there were no widely reported incidents of a Muslim leader being martyred in Iran on that date. Iran has seen significant protests and political tensions in recent years, particularly following the death of Mahsa Amini in 2022, but no specific event matching your query has been documented by major news sources. 
+
+If you have more details (e.g., a specific name, location, or context), I’d be happy to help investigate further. Otherwise, it’s possible there may be confusion or misinformation about the event. Let me know how I can assist!
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, User Query: what is the current conflict between iran and usa, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, AI Response: The current conflict involves recent attacks by the U.S. and Israel on Iran, with Iran responding, and Hezbollah now joining the conflict, as reported in ongoing updates.
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, User Query: is ayatullah khemnai martyred, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 4dbdea19-1a38-4583-a991-5c9aec4b980f, AI Response: Ayatullah Ali Khamenei, the current Supreme Leader of Iran, is not a martyr. He is alive and actively serving in his role. The term "martyr" typically refers to someone who has died as a result of their beliefs or actions, often in a religious or political context. 
+
+If you are referring to a different individual or there is a specific context you have in mind, please clarify, and I would be happy to provide more accurate information.
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, User Query: which recent islamic leader martyred, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, AI Response: Ayatollah Ali Khamenei, Iran's Supreme Leader, was martyred in an Israeli strike according to recent reports.
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, User Query: what were the names of Ali's brothers, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, AI Response: The answer depends on which "Ali" you're referring to, as there are several notable individuals with that name. Here are two possibilities:
+
+1. **Muhammad Ali (the boxer)**:  
+   Muhammad Ali (born Cassius Clay) had a brother named **Saddam Ali**. However, specific details about his other siblings are not widely documented in public sources.
+
+2. **Ali ibn Abi Talib (the historical figure)**:  
+   Ali ibn Abi Talib, the cousin and son-in-law of the Prophet Muhammad, had two brothers:  
+   - **Ja'far ibn Abi Talib**  
+   - **Aqeel ibn Abi Talib**  
+
+If you meant a different "Ali," please provide more context!
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, User Query: what she said softly my name is ?, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1c015fcb-b5af-4844-9b83-2a86bb7628fa, AI Response: The sentence "what she said softly my name is ?" seems incomplete or grammatically unclear. Here are a few possible interpretations or corrections:
+
+1. **If you're asking for the name she said softly**:  
+   You might rephrase it as:  
+   *"What did she say softly? 'My name is...?'"*  
+   (The name would need to be filled in, e.g., *"My name is Emily."*)
+
+2. **If you're describing a situation**:  
+   The sentence could mean:  
+   *"She said softly, 'My name is...'"*  
+   (Again, the name would depend on context.)
+
+3. **Grammatical correction**:  
+   The original sentence lacks proper structure. A clearer version might be:  
+   *"She said softly, 'My name is...'"*  
+
+Could you clarify what you're asking? Are you trying to complete the name, fix the sentence, or something else?
+INFO:root:Session ID: 3cc61cab-abcc-4309-94fd-639774e05997, User Query: Where is the workshop located?
+, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 3cc61cab-abcc-4309-94fd-639774e05997, AI Response: I'm sorry, but I don't have information about a specific workshop's location. Could you clarify which workshop you're referring to? If you provide more details, I'll do my best to help!
+INFO:root:Session ID: d9a20e91-10b7-4144-8393-95fb7ef8148a, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: d9a20e91-10b7-4144-8393-95fb7ef8148a, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, User Query: what date is today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, AI Response: Today's date is Sunday, March 1, 2026.
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, User Query: what date is today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 070ea626-dbec-4e6f-9810-758d94a9bbeb, AI Response: Today's date is March 1st, 2026.
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: Where is the workshop located?
+, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: The workshop is located in the old city of Noorabad, between a spice market and a tea stall.
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: What was written on the wooden sign outside Hashim’s shop?, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: The question about what was written on the wooden sign outside Hashim’s shop depends on the specific context or story being referenced. Since there are multiple possibilities (e.g., a novel, cultural tale, or local anecdote), I would need more details to provide an accurate answer. Could you clarify which story, book, or source you're referring to? This would help me address your query more precisely.
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: Summarize the story in 3 sentences., Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: 1. Hashim discovers an ancient watch from a legendary Mirror Oasis, which reveals a vision of a futuristic Noorabad with a glowing tower when touched.  
+2. The watch's symbols and backward-ticking second hand hint at its mystical connection to time, prompting Hashim to study it for three nights.  
+3. On the fourth night, the watch reactivates, emitting constellations and shimmering air, suggesting its secret power is awakening.
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: now tell me what is the weather of lahore today?, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: Today in Lahore, Pakistan, it's mostly sunny with a temperature of 81°F, making it a pleasant day with low humidity and calm winds.
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, User Query: tell me in celsius, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 291d59dc-a45b-4f15-82fb-7e5112b5ac24, AI Response: Sure! Could you please provide the temperature you'd like converted to Celsius?
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+INFO:backoff:Backing off send_request(...) for 0.8s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+INFO:backoff:Backing off send_request(...) for 0.3s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+INFO:backoff:Backing off send_request(...) for 2.4s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")': /batch/
+ERROR:backoff:Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)")))
+ERROR:posthog:error uploading: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by NameResolutionError("HTTPSConnection(host='us.i.posthog.com', port=443): Failed to resolve 'us.i.posthog.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: What date is today?, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Today's date is Sunday, March 1st, 2026.
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: what is the weather of lahore today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Today in Lahore, Pakistan, it's mostly sunny with a temperature of 87°F, 19% humidity, and a light 9 mph wind breeze.
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: tell me in Celsius, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Sure! Could you clarify what specific information you'd like in Celsius? For example:  
+- A temperature conversion (e.g., from Fahrenheit to Celsius)?  
+- Weather details?  
+- Something else?  
+
+Let me know! \U0001f60a
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: tell me in celsisu , Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: It seems like there might be a typo in your request. Could you clarify what you mean by "Celsisu"? Are you asking about something related to **Celsius** (a temperature scale), **celestial** (related to the sky or heavens), or another term? Let me know, and I’ll happy to help! \U0001f60a
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: okay tell me which muslim leader martyred recently, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: According to the information provided, Ayatollah Ali Khamenei, Iran's Supreme Leader, was martyred recently in a US-Israeli attack.
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: why had he been martyred, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: A martyr is someone who suffers persecution and death for advocating, renouncing, or refusing to renounce a religious belief or cause, as defined in the information provided.
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: what was his age, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.430454 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.814926 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Sorry, something went wrong: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772496000000'}, 'provider_name': None}}, 'user_id': 'user_39vQiMXJgZsm1mj3Fp25IqlfT9A'}
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, User Query: what was his age, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.475063 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.980854 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.434960 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.912438 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: 61a26fc0-39a7-45d4-9266-9a10b2214a44, AI Response: Sorry, something went wrong: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772496000000'}, 'provider_name': None}}, 'user_id': 'user_39vQiMXJgZsm1mj3Fp25IqlfT9A'}
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, AI Response: Hello! How can I assist you today?, Source: llm
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, User Query: what date is today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.442521 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.917571 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.407397 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.760532 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, AI Response: ["Details about today's date with count of days, weeks, and months, Sun and Moon cycles, Zodiac signs and holidays.", "Welcome to the world's top site for time, time zones, and astronomy. Organize your life with free online info and tools you can rely on. No sign-up needed.", "Today, March 1st , is day 60 of 365 total days in 2026. What is Today's Date in Numbers? Today's date in numbers is: MM-DD-YYYY: 03-01-2026; DD-MM-YYYY: ...", 'Today is Sunday, 01 March 2026. Day of the year: 60. Week of the year: 09.', 'Today\'s Date is Sun Mar 01 2026. About Date Today. The term "Date Today" refers to the current calendar date as determined by a system\'s internal clock ...', 'No information is available for this page.', "Today's day date and time. You use the month. Date and time zone. Russian revolutionary and day of today: 33. Getlocaltime will help you can see today's holiday ...", "The date today is Sunday, March 01, 2026. What is the date today in numbers? Depending where you reside and who's asking the date in numbers ...", 'Day 60. Day of the year is a number between 1 and 365 (in 2026), January 1 is day 1. After today 305 days are remaining in this year. This page uses the ISO- ...', "Home›Tools›Current date now. Today's Date Now. Today's current date and time with time zone and date picker: Select locale. en-US. Friday, February 27, 2026. 4 ..."], Source: llm
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, User Query: which muslim leaded martyred previoulsy, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.447260 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.826524 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.378627 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.966956 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, AI Response: ['Follow the latest news and live updates on the U.S. and Israeli strikes in Iran and the death of Supreme Leader Ali Khamenei.', "Gaddafi's political team says masked men killed him at his home in Zintan in a 'cowardly and treacherous assassination'.", 'Saif al-Islam Gaddafi, son of former Libyan leader Muammar Gaddafi, has been killed in Libya, Al Jazeera Arabic reports.', 'Saif al-Islam Gaddafi, son of former Libyan leader Muammar Gaddafi, has been killed in Libya, Al Jazeera Arabic reports. The 53-year-old, ...', "Khamenei, the Islamic Republic's second supreme leader, has been killed. He had held power since 1989, guiding Iran through difficult times ...", "He played a behind-the-scenes role in Iran's Islamic revolution, served as president in the 1980s and dominated the country for more than ...", 'The death of Ayatollah Ali Khamenei could dramatically affect power dynamics in the Middle East.', 'Entries in this chronological list of Muslim military leaders are accompanied by dates of birth and death, branch of Islam, country of birth, field of study ...', 'Saif al-Islam Gaddafi, the son of the long-time former Libyan leader Muammar Gaddafi, has been killed in Libya. Gaddafi is believed to have ...', 'To shed light on the intentions and capabilities of the jihadist group that runs Idlib province, the Biden administration should clarify its ...'], Source: llm
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, User Query: what was his age, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.487715 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.862733 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.392863 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.980909 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: f1ced9a8-9109-409b-ae24-1727efdbbe9f, AI Response: Sorry, something went wrong: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772496000000'}, 'provider_name': None}}, 'user_id': 'user_39vQiMXJgZsm1mj3Fp25IqlfT9A'}, Source: llm
+INFO:root:Session ID: ba839176-c2a4-40c9-ad8c-f662e7f9a725, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: ba839176-c2a4-40c9-ad8c-f662e7f9a725, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: ba839176-c2a4-40c9-ad8c-f662e7f9a725, User Query: what is the age ayatullah khamenei, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.481308 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.844628 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.473451 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.978282 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: ba839176-c2a4-40c9-ad8c-f662e7f9a725, AI Response: Sorry, something went wrong: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772496000000'}, 'provider_name': None}}, 'user_id': 'user_39vQiMXJgZsm1mj3Fp25IqlfT9A'}, Source: llm
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, User Query: what is the current age of ayatullah khamenei, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.418045 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.893868 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.459007 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.870517 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, AI Response: I found web results but couldn't summarize them right now. Please try again., Source: web
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, User Query: what is current conflict between iran and usa, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.385640 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.817659 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.473320 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.983927 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: d2570fc7-5901-4c3c-9ae9-f16b41d20b56, AI Response: I found web results but couldn't summarize them right now. Please try again., Source: web
+INFO:root:Session ID: ba00cf9a-31e5-4cfd-8b6e-daf3a34b08b0, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: ba00cf9a-31e5-4cfd-8b6e-daf3a34b08b0, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: 09a79da1-5339-4bde-aaee-9415572fb6e0, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 09a79da1-5339-4bde-aaee-9415572fb6e0, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: 09a79da1-5339-4bde-aaee-9415572fb6e0, User Query: what is weather of lahore today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.389585 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.916858 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.415118 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.818589 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: 09a79da1-5339-4bde-aaee-9415572fb6e0, AI Response: I found web results but couldn't summarize them right now. Please try again., Source: web
+INFO:root:Session ID: bfd163c6-b6b2-4876-b3a5-6a3adaf82dd0, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: bfd163c6-b6b2-4876-b3a5-6a3adaf82dd0, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: bfd163c6-b6b2-4876-b3a5-6a3adaf82dd0, User Query: what is weather of lahore today, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.383690 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.753549 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.433502 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.983322 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: bfd163c6-b6b2-4876-b3a5-6a3adaf82dd0, AI Response: I found web results but couldn't summarize them right now. Please try again., Source: web
+INFO:root:Session ID: f43e4c51-3fe7-4e22-99d7-38018b28db68, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: f43e4c51-3fe7-4e22-99d7-38018b28db68, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: d1e01f25-9ba3-4108-9c38-02a9b75e004b, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: ae889dca-a837-42a9-9a9d-aedcb6c3106d, AI Response: Hello! How can I assist you today?, Source: greeting
+INFO:root:Session ID: 220403c5-5dc3-4ebd-98f6-3aadc6a62881, User Query: hi, Model: nvidia/nemotron-nano-9b-v2:free
+INFO:root:Session ID: 220403c5-5dc3-4ebd-98f6-3aadc6a62881, AI Response: Hello! How can I assist you today?, Source: greeting
